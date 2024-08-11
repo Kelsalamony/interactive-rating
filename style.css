@@ -1,0 +1,170 @@
+* {
+    font-family: "Rubik", sans-serif;
+  }
+  body {
+    margin: 0;
+  }
+  .feedbackContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(20, 21, 25, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .feedbackCard {
+    width: 350px;
+    height: 450px;
+    background-color: rgba(31, 38, 48, 255);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    padding-right: 10px;
+  }
+  .header {
+    height: 60%;
+    position: relative;
+  }
+  .header h2 {
+    bottom: 90px;
+    left: 35px;
+    position: absolute;
+    color: rgba(247, 248, 248, 255);
+    margin-bottom: 50px;
+    font-weight: 400;
+  }
+  .header p {
+    bottom: 10px;
+    position: absolute;
+    left: 35px;
+    color: rgba(94, 101, 111, 255);
+  }
+  .header img {
+    width: 32px;
+    position: absolute;
+    top: 32px;
+    left: 30px;
+    
+   
+    
+
+   
+  }
+  .rating {
+    width: 80%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+  }
+  #btn {
+    background-color: #333a46;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: #bec2c6;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  #btn:hover {
+    background-color: #fc7613;
+    color: #ffffff;
+  }
+  #btn:active{
+    background-color: yellowgreen;
+  }
+  .submitButton {
+    background-color: #fc7613;
+    border: none;
+    border-radius: 30px;
+    width: 90%;
+    padding: 15px 0;
+    color: black;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+  }
+  .submitButton:hover {
+    background-color: white;
+    color: black;
+  }
+  .submitButton:active{
+    background-color: yellowgreen;
+  }
+  .thankContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(20, 21, 25, 255);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+  }
+  .thankCard {
+    width: 350px;
+    height: 450px;
+    background-color: rgba(31, 38, 48, 255);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    padding-right: 10px;
+  }
+  
+  .thankCard {
+    background-color: #242a36;
+    border-radius: 15px;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .ratingInfo {
+    background-color: #333a46;
+    color: #fc7613;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .thankCard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgbargba(241, 242, 243, 255);
+  }
+  
+  .thankYouMessage {
+    font-size: 0.9rem;
+    color: rgba(106, 117, 132, 255);
+    line-height: 1.5;
+  }
+  .thankContainer img {
+    width: 50%;
+    height: 25%;
+  }
